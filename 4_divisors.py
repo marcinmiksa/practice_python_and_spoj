@@ -9,7 +9,7 @@
 def divisors(number):
     list_of_divisors = []
 
-    for i in range(1, number):
+    for i in range(1, number + 1):
         if number % i == 0:
             list_of_divisors.append(i)
     print(list_of_divisors)

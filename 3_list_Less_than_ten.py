@@ -11,11 +11,11 @@ print(_list)
 number = float(input('Select number: '))
 
 # 1st method
-# new_list = []
-# for index in _list:
-#     if index < number:
-#         new_list.append(index)
-# print(new_list)
+new_list = []
+for index in _list:
+    if index < number:
+        new_list.append(index)
+print(new_list)
 
 # 2nd method
 print(list(filter(lambda x: x < number, _list)))
