@@ -6,7 +6,7 @@
 # https://www.practicepython.org/exercise/2014/02/26/04-divisors.html
 
 
-def divisors(number):
+def divisors(number=0):
     list_of_divisors = []
 
     for i in range(1, number + 1):
@@ -15,4 +15,5 @@ def divisors(number):
     print(list_of_divisors)
 
 
-divisors(30)
+if __name__ == '__main__':
+    divisors(number=30)

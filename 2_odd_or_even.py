@@ -4,7 +4,7 @@
 # react differently when divided by 2?
 # https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html
 
-number = float(input('Entry a number: '))
+number = int(input('Enter a number: '))
 
 if number % 2 == 0:
     print('Even')

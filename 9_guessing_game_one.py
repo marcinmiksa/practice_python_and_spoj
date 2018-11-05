@@ -11,7 +11,7 @@
 import random
 counter = 0
 
-while 1 > 0:
+while True:
     counter = counter + 1
     try:
         number = int(input('Enter a number [press 0 to exit game]: '))

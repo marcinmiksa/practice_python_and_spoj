@@ -14,9 +14,9 @@ for i in _list:
 print(new_list)
 
 # 2nd method
-new_list = [i for i in _list if i % 2 ==0]
-print(new_list)
+new_list2 = [i for i in _list if i % 2 == 0]
+print(new_list2)
 
 # 3rd method
-new_list = list(filter(lambda j: j % 2 == 0, _list))
-print(new_list)
+new_list3 = list(filter(lambda j: j % 2 == 0, _list))
+print(new_list3)

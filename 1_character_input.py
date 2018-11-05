@@ -8,4 +8,5 @@ name = input('Name: ')
 age = int(input('Age: '))
 
 result = 2018 + 100 - age
+
 print('{} in {} you will have 100 years'.format(name, result))

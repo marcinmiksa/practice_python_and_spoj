@@ -17,9 +17,27 @@ print(c_list)
 print(set(a_list).intersection(set(b_list)))
 
 # 3nd method <-- doesn't work properly!
+
+
+def find_unicals(list_of_datas = [1, 2, 3, 1, 1]):
+    unical = []
+    for i in list_of_datas:
+        counter = 0
+        for j in unical:
+            if i == j:
+                counter += 1
+        if counter == 0:
+            unical.append(i)
+
+    return unical
+
+
+unic_a_list = find_unicals(a_list)
+unic_b_list = find_unicals(b_list)
+
 c_list = []
-for i in a_list:
-    for j in b_list:
+for i in unic_a_list:
+    for j in unic_b_list:
         if i == j:
             c_list.append(i)
 
