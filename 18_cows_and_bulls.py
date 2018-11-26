@@ -31,6 +31,7 @@ def the_game():
     x_random_digit = random_digit()
     y_choice_number = choice_number()
 
+    print("Computer:", x_random_digit)
     cows = 0
 
     for x_entry in str(x_random_digit):
